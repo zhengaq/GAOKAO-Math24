@@ -179,3 +179,225 @@ Option C: $f(10) < 1000$ is true, since we found $f(10) > 89$.
 Option D: $f(20) < 10000$ is false, since $f(20)$ will be much larger than 10000.
 The correct answer is Option B: $f(20) > 1000$.
 ```
+## Multiple choices
+### Question 9
+```
+Let's break down the problem step by step:
+
+1. We know that $X$ follows a normal distribution $N(1.8, 0.1^2)$. To find $P(X > 2)$, we can standardize the value 2 using the z-score formula:
+
+$$z = \frac{2 - 1.8}{0.1} = 2$$
+
+Using a standard normal distribution table or calculator, we find that $P(Z > 2) \approx 0.0228$. Since $X$ has a normal distribution, we can conclude that $P(X > 2) \approx 0.0228$.
+
+Comparing this result to the options:
+
+* Option A: $P(X > 2) > 0.2$ is incorrect since $P(X > 2) \approx 0.0228 < 0.2$.
+* Option B: $P(X > 2) < 0.5$ is correct since $P(X > 2) \approx 0.0228 < 0.5$.
+
+2. We know that $Y$ follows a normal distribution $N(2.1, 0.01)$. To find $P(Y > 2)$, we can standardize the value 2 using the z-score formula:
+
+$$z = \frac{2 - 2.1}{\sqrt{0.01}} = -1$$
+
+Using a standard normal distribution table or calculator, we find that $P(Z > -1) \approx 0.8413$. Since $Y$ has a normal distribution, we can conclude that $P(Y > 2) \approx 0.8413$.
+
+Comparing this result to the options:
+
+* Option C: $P(Y > 2) > 0.5$ is correct since $P(Y > 2) \approx 0.8413 > 0.5$.
+* Option D: $P(Y > 2) < 0.8$ is correct since $P(Y > 2) \approx 0.8413 < 0.8$.
+
+Therefore, the correct options are:
+
+* Option B: $P(X > 2) < 0.5$
+* Option C: $P(Y > 2) > 0.5$
+* Option D: $P(Y > 2) < 0.8$
+```
+
+### Question 10
+```
+Let's analyze each option:
+
+Option A: To find the local minimum point, we need to find the critical points of f(x) by taking its derivative:
+
+f'(x) = d/dx [(x - 1)^2(x - 4)] = 2(x - 1)(x - 4) + (x - 1)^2
+
+Setting f'(x) = 0, we get:
+
+2(x - 1)(x - 4) + (x - 1)^2 = 0
+(x - 1)[2(x - 4) + (x - 1)] = 0
+(x - 1)(2x - 7) = 0
+
+This gives us critical points at x = 1 and x = 7/2. Now, we need to check the sign of f'(x) around these points to determine if they are local minima or maxima.
+
+f'(x) > 0 when x < 1 or x > 7/2, and f'(x) < 0 when 1 < x < 7/2. Therefore, x = 1 is a local minimum point, but x = 3 is not. So, Option A is incorrect.
+
+Option B: Let's analyze the inequality f(x) < f(x^2) when 0 < x < 1.
+
+f(x) = (x - 1)^2(x - 4) < 0 when 0 < x < 1 (since x - 1 < 0 and x - 4 < 0)
+
+f(x^2) = (x^2 - 1)^2(x^2 - 4) > 0 when 0 < x < 1 (since x^2 - 1 > 0 and x^2 - 4 < 0)
+
+So, f(x) < f(x^2) when 0 < x < 1. Therefore, Option B is correct.
+
+Option C: Let's analyze the inequality -4 < f(2x - 1) < 0 when 1 < x < 2.
+
+f(2x - 1) = ((2x - 1) - 1)^2((2x - 1) - 4) = (2x - 2)^2(2x - 5)
+
+When 1 < x < 2, we have 2 < 2x < 4, so 0 < 2x - 2 < 2 and -1 < 2x - 5 < 1.
+
+(2x - 2)^2 > 0, and -1 < 2x - 5 < 1 implies -4 < (2x - 5) < 0.
+
+Therefore, -4 < f(2x - 1) < 0 when 1 < x < 2. So, Option C is correct.
+
+Option D: Let's analyze the inequality f(2 - x) > f(x) when -1 < x < 0.
+
+f(2 - x) = ((2 - x) - 1)^2((2 - x) - 4) = (1 - x)^2(-2 - x)
+
+f(x) = (x - 1)^2(x - 4)
+
+When -1 < x < 0, we have 1 < 1 - x < 2 and -2 < -2 - x < -1.
+
+(1 - x)^2 > 0, and -2 < -2 - x < -1 implies -4 < (1 - x)^2(-2 - x) < 0.
+
+(x - 1)^2 > 0, and -1 < x - 4 < -4 implies -4 < (x - 1)^2(x - 4) < 0.
+
+Since both f(2 - x) and f(x) are negative when -1 < x < 0, we need to compare their absolute values:
+
+|(1 - x)^2(-2 - x)| > |(x - 1)^2(x - 4)| when -1 < x < 0
+
+This inequality is true when -1 < x < 0. Therefore, Option D is correct.
+
+So, the correct options are:
+
+* Option B: When $0 < x < 1$, $f(x) < f(x^2)$
+* Option C: When $1 < x < 2$, $-4 < f(2x - 1) < 0$
+* Option D: When $-1 < x < 0$, $f(2 - x) > f(x)$
+```
+
+### Question 11
+```
+Let's break down the problem step by step!
+
+Since the product of the distances from the point $O$ to $F(2, 0)$ and from $O$ to the line $x = a$ is equal to 4, we can write an equation:
+
+$$|2-a|\cdot|2|=4$$
+
+Since $a<0$, we have $|2-a|=2-a$ and $|2|=2$. So, the equation becomes:
+
+$$2(2-a)=4$$
+
+Solving for $a$, we get:
+
+$$a=-2$$
+
+So, Option A is correct.
+
+Now, let's consider the shape of the curve $C$. Since the product of the distances from $O$ to $F(2, 0)$ and from $O$ to the line $x = a$ is equal to 4, we can write the equation of $C$ as:
+
+$$y^2=(x+2)(2-x)$$
+
+Simplifying the equation, we get:
+
+$$y^2=-x^2-2x+4$$
+
+Rearranging the equation, we get:
+
+$$x^2+2x+y^2-4=0$$
+
+This is an ellipse with center $(1, 0)$ and vertices at $(2, 0)$ and $(-2, 0)$. Since the point $(2\sqrt{2}, 0)$ lies outside the ellipse, Option B is incorrect.
+
+The ellipse does not have a vertical asymptote at $x = 1$, so Option C is incorrect.
+
+Finally, let's consider Option D. We can rewrite the equation of the ellipse as:
+
+$$y^2=-x^2-2x+4$$
+
+Rearranging the equation, we get:
+
+$$y^2=-x(x+2)+4$$
+
+Since $x>-2$, we have $x+2>0$. Therefore, $y^2\leq 4$, which implies:
+
+$$y\leq\frac{4}{x+2}$$
+
+So, Option D is correct.
+
+In conclusion, the correct options are:
+
+* Option A: $a = -2$
+* Option D: when the point $(x_0, y_0)$ lies on $C$, then $y_0 \leq \frac{4}{x_0 + 2}$
+```
+
+## Fill-in-the-blank 
+### Question 12
+```
+Let's break this problem down step by step!
+
+Since the line passing through $F_2$ and parallel to the $y$-axis intersects $C$ at points $A$ and $B$, we can conclude that $F_2A = F_2B$. Let's call the distance $F_2A = F_2B = k$.
+
+Now, we are given that $|F_1A| = 13$ and $|AB| = 10$. We can use the fact that $F_1A = F_1F_2 + F_2A$ to write:
+
+$$13 = |F_1A| = |F_1F_2| + |F_2A| = |F_1F_2| + k$$
+
+We know that $|F_1F_2| = 2ae$, where $e$ is the eccentricity of the hyperbola. So, we can rewrite the equation as:
+
+$$13 = 2ae + k$$
+
+Now, let's consider the point $B$. We have:
+
+$$|F_1B| = |F_1A| - |AB| = 13 - 10 = 3$$
+
+Using the same logic as before, we can write:
+
+$$3 = |F_1B| = |F_1F_2| - |F_2B| = 2ae - k$$
+
+Now we have two equations:
+
+$$13 = 2ae + k$$
+$$3 = 2ae - k$$
+
+Adding these two equations, we get:
+
+$$16 = 4ae \Rightarrow e = \frac{16}{4a} = \frac{4}{a}$$
+
+So, the eccentricity of the hyperbola is $e = \frac{4}{a}$.
+
+Note that we didn't need to find the values of $a$ and $b$ explicitly, as the problem only asked for the eccentricity $e$.
+```
+
+### Question 13
+```
+The derivative of $y=e^x+x$ is $y'=e^x+1$, so the slope of the tangent line at $(0,1)$ is $e^0+1=2$.  The derivative of $y=\ln(x+1)+a$ is $y'=\frac{1}{x+1}$, so the slope of the tangent line at $(0,a)$ is $\frac{1}{0+1}=1$.  Since these slopes must be equal, we have $2=1$, which is a contradiction.  Therefore, there is no such $a$.
+
+However, if we assume that the point of tangency is not $(0,a)$, then we can solve for $a$.  Let the point of tangency be $(x_0,\ln(x_0+1)+a)$.  Then the slope of the tangent line is $\frac{1}{x_0+1}$.  Since we know that this slope is equal to $2$, we have $$\frac{1}{x_0+1}=2\Rightarrow x_0=\frac{1}{2}-1=-\frac{1}{2}.$$Then, since $y_0=\ln(x_0+1)+a$, we have $$1=\ln\left(\frac{1}{2}+1\right)+a=\ln\left(\frac{3}{2}\right)+a\Rightarrow a=1-\ln\left(\frac{3}{2}\right)=\boxed{1-\ln\left(\frac{3}{2}\right)}.$$
+Final Answer: The final answer is 1-\ln\left(\frac{3}{2}\right). I hope it is correct.
+```
+
+### Question 14
+```
+Let's break down the possible outcomes and calculate the probability of A's total score being at least 2.
+
+**Round 1:**
+A wins with probability 2/4 (selecting 3, 5, or 7) and B wins with probability 2/4 (selecting 2 or 4).
+
+**Round 2:**
+Assuming A won in Round 1, A wins again with probability 2/3 (selecting 5 or 7) and B wins with probability 1/3 (selecting 2 or 4). If B won in Round 1, A wins with probability 3/3 (selecting 3, 5, or 7) and B wins with probability 0/3.
+
+**Round 3:**
+Assuming A won in Rounds 1 and 2, A wins again with probability 1/2 (selecting 7) and B wins with probability 1/2 (selecting 2, 4, or 6). If A won in Round 1 and B won in Round 2, A wins with probability 2/2 (selecting 5 or 7) and B wins with probability 0/2. If B won in Rounds 1 and 2, A wins with probability 3/3 (selecting 3, 5, or 7) and B wins with probability 0/3.
+
+**Round 4:**
+Assuming A won in Rounds 1, 2, and 3, A wins again with probability 1/1 (selecting 7) and B wins with probability 0/1. If A won in Rounds 1 and 2, and B won in Round 3, A wins with probability 1/1 (selecting 7) and B wins with probability 0/1. If A won in Round 1, and B won in Rounds 2 and 3, A wins with probability 2/2 (selecting 5 or 7) and B wins with probability 0/2. If B won in Rounds 1, 2, and 3, A wins with probability 3/3 (selecting 3, 5, or 7) and B wins with probability 0/3.
+
+Now, let's calculate the probability of A's total score being at least 2:
+
+* A wins all 4 rounds: (2/4) × (2/3) × (1/2) × (1/1) = 1/12
+* A wins 3 rounds and loses 1 round: (2/4) × (2/3) × (1/2) × (0/1) + (2/4) × (1/3) × (2/2) × (1/1) + (2/4) × (1/3) × (0/2) × (2/2) = 1/6 + 1/6 + 0 = 1/3
+* A wins 2 rounds and loses 2 rounds: (2/4) × (1/3) × (1/2) × (0/1) + (2/4) × (1/3) × (0/2) × (1/1) + (2/4) × (0/3) × (2/2) × (1/1) + (2/4) × (0/3) × (1/2) × (2/2) = 0 + 0 + 1/6 + 1/6 = 1/3
+
+Adding up these probabilities, we get:
+
+P(A's total score ≥ 2) = 1/12 + 1/3 + 1/3 = 11/12
+
+So, the probability that A's total score is at least 2 is 11/12.
+```
