@@ -16,3 +16,4 @@ In this repository, we provide translated versions of the Gaokao 2024 mathematic
 | GPT-4o (6/8/2024)    | A   | C   | D   | D   | B   | B   | C   | C   | 75%         |
 | Gemini-Ultra-1.0 (6/8/2024) | A   | A   | D   | A   | B   | NaN | C   | B   | 62.50%      |
 | Claude_3_Opus (6/8/2024)    | A   | C   | D   | A   | B   | B   | A   | B   | 87.50%      |
+| Llama_3_70b (6/8/2024)    | A   | NaN   | D   | NaN   | B   | A   | C   | B   | 62.50%      |
