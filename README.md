@@ -34,5 +34,5 @@ In this repository, we provide translated versions of the Gaokao 2024 mathematic
 | Grand Truth   | 3/2  | ln2      | 1/2       |          |
 | GPT-4o (6/8/2024)   | 3/2  | ln2      | 0.69      | 66.70%   |
 | Claude_3_Opus (6/8/2024)  | 1    | ln2      | 0.15      | 33.30%   |
-| Gemini-Ultra-1.0 (6/8/2024) | 5/4  | ln/2     | 1         | 33.30%   |
+| Gemini-Ultra-1.0 (6/8/2024) | 5/4  | ln2     | 1         | 33.30%   |
 | Llama_3 (70b; 6/8/2024)    | 4/a  | 1-ln(3/2) | 11/12     | 0%       |
