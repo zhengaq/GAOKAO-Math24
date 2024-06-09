@@ -15,10 +15,12 @@ In this repository, we provide translated versions of the Gaokao 2024 mathematic
 | Grand truth               | A   | C   | D   | A   | B   | B   | C   | B   |             |
 | GPT-4o (6/8/2024)    | A   | C   | D   | D   | B   | B   | C   | C   | 75%         |
 | Claude_3_Opus (6/8/2024)    | A   | C   | D   | A   | B   | B   | A   | B   | 87.50%      |
-| Gemini-Ultra-1.0 (6/8/2024) | A   | A   | D   | A   | B   | NaN | C   | B   | 62.50%      |
+| Gemini-Ultra-1.0 (6/8/2024) | A   | A   | D   | A   | B   | NaN | C   | B   | 75.00%      |
 | Llama_3_70b (6/8/2024)    | A   | NaN   | D   | NaN   | B   | A   | C   | B   | 62.50%      |
 
 #### Multi-choice results
+
+*For each question, if all selected options are correct, the model receives the full score. If some selected options are correct, the model receives partial points proportionate to the response. If there are any incorrect selections, the model receives 0 score.*
 
 |         |  9   |  10  |  11   | Accuracy |
 |---------|------|------|-------|-------------|
