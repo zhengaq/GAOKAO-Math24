@@ -8,12 +8,31 @@ In this repository, we provide translated versions of the Gaokao 2024 mathematic
 大模型数据刷榜一直是备受关注的问题。与此同时，一年一度的高考试题通过严格的保密措施和独特的设计来提高考试的公平性与私密性。这些特点使得新发布的高考试题成为评估大语言模型能力的理想数据集。为此，以下提供了2024高考数学试题的英文翻译集
 
 
-#### Single-choice questions results
+#### Single-choice results
 
 | Question               | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | Accuracy |
 |----------------------|-----|-----|-----|-----|-----|-----|-----|-----|-------------|
 | Grand truth               | A   | C   | D   | A   | B   | B   | C   | B   |             |
 | GPT-4o (6/8/2024)    | A   | C   | D   | D   | B   | B   | C   | C   | 75%         |
-| Gemini-Ultra-1.0 (6/8/2024) | A   | A   | D   | A   | B   | NaN | C   | B   | 62.50%      |
 | Claude_3_Opus (6/8/2024)    | A   | C   | D   | A   | B   | B   | A   | B   | 87.50%      |
+| Gemini-Ultra-1.0 (6/8/2024) | A   | A   | D   | A   | B   | NaN | C   | B   | 62.50%      |
 | Llama_3_70b (6/8/2024)    | A   | NaN   | D   | NaN   | B   | A   | C   | B   | 62.50%      |
+
+#### Multi-choice results
+
+|         |  9   |  10  |  11   | Accuracy |
+|---------|------|------|-------|-------------|
+| Grand Truth   | BC   | ACD  | ABD   |
+| GPT-4o (6/8/2024)   | BC   | ACD  | ABD   |100%|
+| Claude_3_Opus (6/8/2024)  | BC   | BC   | AD    |55.6%|
+| Gemini-Ultra-1.0 (6/8/2024) | BC   | ACD  | AD    |55.6%|
+| Llama_3 (70b; 6/8/2024)    | BCD  | BCD  | AD    |22.2%|
+
+#### FIB
+| FIB           |  12  |    13    |     14    | Accuracy |
+|---------------|------|----------|-----------|----------|
+| Grand Truth   | 3/2  | ln2      | 1/2       |          |
+| GPT-4o (6/8/2024)   | 3/2  | ln2      | 0.69      | 66.70%   |
+| Claude_3_Opus (6/8/2024)  | 1    | ln2      | 0.15      | 33.30%   |
+| Gemini-Ultra-1.0 (6/8/2024) | 5/4  | ln/2     | 1         | 33.30%   |
+| Llama_3 (70b; 6/8/2024)    | 4/a  | 1-ln(3/2) | 11/12     | 0%       |
