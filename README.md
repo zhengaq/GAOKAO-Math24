@@ -13,7 +13,7 @@ In this repository, we provide translated versions of the Gaokao 2024 mathematic
 | Question               | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | Accuracy |
 |----------------------|-----|-----|-----|-----|-----|-----|-----|-----|-------------|
 | Grand truth               | A   | C   | D   | A   | B   | B   | C   | B   |             |
-| GPT-4o (6/8/2024)    | A   | C   | D   | D   | A   | B   | C   | C   | 87.50%         |
+| GPT-4o (6/8/2024)    | A   | C   | D   | A   | B   | B   | C   | C   | 87.50%         |
 | Claude_3_Opus (6/8/2024)    | A   | C   | D   | A   | B   | B   | A   | B   | 87.50%      |
 | Gemini-Ultra-1.0 (6/8/2024) | A   | A   | D   | A   | B   | NaN | C   | B   | 75.00%      |
 | Llama_3_70b (6/8/2024)    | A   | NaN   | D   | NaN   | B   | A   | C   | B   | 62.50%      |
